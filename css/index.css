@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+/* font-family: 'Amatic SC', cursive; */
+
+/************************common***************************/
+/* wrapper는 menu, about, contact */
+html, body {width: 100%; margin: auto; font-family: 'Amatic SC', cursive; font-size: 14px; height: 3000px;}
+.wrapper {max-width: 1200px; padding: 1em;}
+
+
+/************************header***************************/
+.header-wrapper {position: fixed; width: 100%; background-color: #121212; opacity: .5; color: #f9f9f9; font-size: 2em; padding: .5em; z-index: 9;}
+.header-wrapper:hover {opacity: 1;}
+.header-wrapper > .logo {float: left; margin-left: 1em;}
+.header-wrapper > .navi-wrapper {float: right;}
+.header-wrapper > .navi-wrapper > .navi {float: left; margin-right: 1em;}
+
+
+/************************main***************************/
+.main-wrapper {width: 100%; height: 100vh;}
+.main-wrapper > .main-wrap {min-height: 90%; background-image: url(../img/pizza.jpg); background-size: cover; background-repeat: no-repeat;  position: relative; filter: grayscale(50%);}
+.main-wrapper > .main-wrap > .main-article {position: absolute; font-size: 7em; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center; color: #f9f9f9;}
+.main-wrapper > .main-wrap > .main-article > p span {margin: 1em 0;}
+.main-wrapper > .main-wrap > .main-article > button {color: #f9f9f9; background-color: #121212; font-size: .5em; padding: .25em;}
+.main-wrapper > .main-wrap > .time {position: absolute; left: 5%; bottom: 5%; color: #f9f9f9; background-color: #121212; font-size: 2em;}
+
+
+/************************menu***************************/
+
+
+/************************about***************************/
+
+
+/************************map***************************/
+
+
+/************************contact***************************/
+
+
+/************************footer***************************/
+
+
+
+
+
+
+/************************response***************************/
+@media (max-width: 1400px){
+
+}
+
+
+@media (max-width: 1200px){
+
+}
+
+
+@media (max-width: 992px){
+
+}
+
+
+@media (max-width: 768px){
+    .main-wrapper > .main-wrap > .main-article > p {font-size: .75em; font-weight: bold;}
+    .main-wrapper > .main-wrap > .main-article > button {font-size: .4em;}
+}
+
+
+@media (max-width: 542px){
+
+}
